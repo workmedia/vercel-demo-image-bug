@@ -37,7 +37,6 @@ module.exports = withPWA({
         }
       ];
     },
-    images: { domains: ['stg.construir.pt'] },
-    future: { webpack5: true }
+    images: { domains: ['stg.construir.pt'] }
   })
 });
