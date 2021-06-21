@@ -14,6 +14,8 @@ export default function SingleNewsMainHeader({
   authorName,
   isBrandshare
 }) {
+  console.log({ imageSrc, imageAltText });
+
   return (
     <>
       <div tw="grid grid-cols-12 gap-x-6">
